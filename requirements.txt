@@ -1,0 +1,8 @@
+streamlit
+fastai
+torch
+torchvision
+pandas
+scikit-learn
+joblib
+Pillow
