@@ -1,11 +1,14 @@
 import pathlib
-# 1. Deep Python 3.13 Windows Path Hack (Must be at the absolute top!)
-pathlib.PosixPath = pathlib.WindowsPath
-try:
-    import pathlib._local
-    pathlib._local.PosixPath = pathlib._local.WindowsPath
-except ImportError:
-    pass
+import platform
+
+# Smart Cross-Platform Path Hack (Works on both Windows PC and Linux Cloud!)
+if platform.system() == 'Windows':
+    pathlib.PosixPath = pathlib.WindowsPath
+    try:
+        import pathlib._local
+        pathlib._local.PosixPath = pathlib._local.WindowsPath
+    except ImportError:
+        pass
 
 import streamlit as st
 import pandas as pd
