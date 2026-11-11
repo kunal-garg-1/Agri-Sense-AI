@@ -4,12 +4,16 @@
 [![Python 3.12+](https://img.shields.io/badge/Python-3.12%2B-blue.svg?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
 [![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=for-the-badge&logo=PyTorch&logoColor=white)](https://pytorch.org/)
 [![Scikit-Learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white)](https://scikit-learn.org/)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24125244.svg)](https://doi.org/10.5281/zenodo.24125244)
 
 **Agri-Sense** is an end-to-end, dual-engine Machine Learning application designed to solve two critical bottlenecks in agricultural production: **real-time plant pathology diagnosis** and **commodity market price volatility**. 
 
 Rather than relying on external third-party API wrappers, Agri-Sense runs two distinct, locally serialized mathematical architectures simultaneously—bridging Deep Learning Computer Vision with Classical Ensemble Regression.
 
 🔗 **Live Deployment:** [https://agri-sense-ai-tool.streamlit.app/](https://agri-sense-ai-tool.streamlit.app/)
+📄 **Published Research Preprint (CERN / Zenodo):** [AgriSense AI: An Integrated Dual-Engine Deep Transfer Learning and Ensemble Regression Framework (DOI: 10.5281/zenodo.24125244)](https://doi.org/10.5281/zenodo.24125244)
+
+> **Citation:** K. Garg, *"AgriSense AI: An Integrated Dual-Engine Deep Transfer Learning and Ensemble Regression Framework for Crop Foliar Disease Diagnosis and Agricultural Commodity Price Forecasting,"* Zenodo (CERN), Nov. 2026. DOI: `10.5281/zenodo.24125244`
 
 ---
 
